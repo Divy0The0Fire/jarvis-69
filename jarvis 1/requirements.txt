@@ -1,0 +1,6 @@
+deepgram-sdk
+pygame
+edge_tts
+selenium
+python-dotenv
+speechrecognition
