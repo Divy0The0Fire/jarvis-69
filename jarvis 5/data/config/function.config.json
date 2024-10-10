@@ -1,0 +1,20 @@
+[
+    {
+        "name": "chatbot",
+        "description": "it is a chatbot which can answer any query. it have all the past history of user, internet, userNotebook.",
+        "usage": "simply call: chatbot(query: str)",
+        "pattern": "chatbot(query: 'hello')"
+    },
+    {
+        "name": "userNotebook",
+        "description": "The notebook where you can store your important personal short notes of user which can be used in the future. its a internal function.",
+        "usage": "it has 3 commands: add(text: str), update(line: int, text: str), delete(line: int)",
+        "pattern": "userNotebook.add(text: 'hello world')"
+    },
+    {
+        "name": "emotion",
+        "description": "it is a emotion system for chatbot to express emotions. you can change the emotion depending on your mood and user previous chat. it is important to express emotion to make chatbot interactive. And it works like list of emotion. there can be many emotion at once.",
+        "usage": "it has 2 commands: add(emotion: str), remove(emotion: str), emotion is Enum of {listOfEmotion}.",
+        "pattern": "emotion.remove(emotion: 'Emotion')"
+    }
+]

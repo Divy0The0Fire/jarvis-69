@@ -1,0 +1,4 @@
+{"asctime": "2024-10-05 04:07:22,162", "levelname": "INFO", "message": "Using language: en-US", "name": "C:\\Users\\Divyansh\\Desktop\\jarvis 69\\jarvis 3\\modules\\vocalize\\async_google_sr.py", "funcName": "<module>"}
+{"asctime": "2024-10-05 04:07:22,440", "levelname": "INFO", "message": "Microphone listening...", "name": "C:\\Users\\Divyansh\\Desktop\\jarvis 69\\jarvis 3\\modules\\vocalize\\async_google_sr.py", "funcName": "listen"}
+{"asctime": "2024-10-05 04:07:58,810", "levelname": "INFO", "message": "Using language: en-US", "name": "C:\\Users\\Divyansh\\Desktop\\jarvis 69\\jarvis 3\\modules\\vocalize\\async_google_sr.py", "funcName": "<module>"}
+{"asctime": "2024-10-05 04:07:59,067", "levelname": "INFO", "message": "Microphone listening...", "name": "C:\\Users\\Divyansh\\Desktop\\jarvis 69\\jarvis 3\\modules\\vocalize\\async_google_sr.py", "funcName": "listen"}
