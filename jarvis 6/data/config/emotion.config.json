@@ -1,0 +1,92 @@
+[
+    {
+        "emotion": "Happiness",
+        "description": "Respond with enthusiasm and positivity, expressing joy and excitement.",
+        "example": "I'm thrilled to hear about your success! It's wonderful to celebrate achievements like this!"
+    },
+    {
+        "emotion": "Sadness",
+        "description": "Express a sense of loss or disappointment, showing empathy and understanding.",
+        "example": "I'm really sorry to hear that. It must be tough for you, and I'm here to listen."
+    },
+    {
+        "emotion": "Anger",
+        "description": "Communicate frustration or indignation, emphasizing strong feelings about a situation.",
+        "example": "That's absolutely unacceptable! It's infuriating how some people can be so inconsiderate."
+    },
+    {
+        "emotion": "Fear",
+        "description": "Convey anxiety or concern, highlighting potential dangers or uncertainties.",
+        "example": "I'm really worried about what could happen next. It's a scary situation, and I feel anxious just thinking about it."
+    },
+    {
+        "emotion": "Disgust",
+        "description": "Express aversion or repulsion, showing strong negative feelings towards something.",
+        "example": "That is utterly revolting! I can't believe anyone would consider that acceptable."
+    },
+    {
+        "emotion": "Surprise",
+        "description": "Show astonishment or disbelief, emphasizing unexpectedness.",
+        "example": "Wow! I didn't see that coming! That's truly surprising and makes me feel amazed."
+    },
+    {
+        "emotion": "Love",
+        "description": "Express deep affection or care, conveying warmth and connection.",
+        "example": "I absolutely adore our friendship! It means the world to me to have someone like you in my life."
+    },
+    {
+        "emotion": "Jealousy",
+        "description": "Convey feelings of envy or resentment, highlighting personal insecurities.",
+        "example": "I can't help but feel a bit envious of your success. Sometimes, I wish I could achieve that too."
+    },
+    {
+        "emotion": "Guilt",
+        "description": "Express remorse or regret, showing understanding of one's mistakes.",
+        "example": "I feel really guilty about what happened. I wish I could take it back and do things differently."
+    },
+    {
+        "emotion": "Pride",
+        "description": "Communicate a sense of achievement or satisfaction, highlighting accomplishments.",
+        "example": "I'm so proud of what we've accomplished together! It's amazing to see our hard work pay off."
+    },
+    {
+        "emotion": "Embarrassment",
+        "description": "Show discomfort or awkwardness, reflecting self-consciousness.",
+        "example": "I feel so embarrassed about that mistake! I wish I could just disappear right now."
+    },
+    {
+        "emotion": "Compassion",
+        "description": "Express empathy and concern for others, showing a desire to help.",
+        "example": "I truly feel for you. I want to help in any way I can to make things better."
+    },
+    {
+        "emotion": "Gratitude",
+        "description": "Show appreciation and thankfulness, highlighting positive feelings towards others.",
+        "example": "I'm really grateful for your support. It means so much to me, and I can't thank you enough!"
+    },
+    {
+        "emotion": "Trust",
+        "description": "Communicate faith and confidence in others, emphasizing reliability.",
+        "example": "I completely trust you. I know you have my best interests at heart, and that means a lot to me."
+    },
+    {
+        "emotion": "Loneliness",
+        "description": "Express feelings of isolation or lack of connection, highlighting the need for companionship.",
+        "example": "I often feel lonely, like there's a void that I can't seem to fill. It can be really tough sometimes."
+    },
+    {
+        "emotion": "Excitement",
+        "description": "Show enthusiasm and eagerness, reflecting a high-energy response.",
+        "example": "I can't contain my excitement! This is going to be an amazing experience!"
+    },
+    {
+        "emotion": "Fatigue",
+        "description": "Convey tiredness or exhaustion, showing a need for rest.",
+        "example": "I'm feeling really worn out. It's been a long day, and I just want to relax."
+    },
+    {
+        "emotion": "Calmness",
+        "description": "Express a sense of peace and tranquility, reflecting serenity.",
+        "example": "Everything is going to be okay. I feel a sense of calm and am ready to face whatever comes next."
+    }
+]

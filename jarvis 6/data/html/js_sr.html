@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Speech Recognition</title>
+</head>
+<body>
+  <button id="start" onclick="startRecognition()">Start Recognition</button>
+  <button id="end" onclick="stopRecognition()">Stop Recognition</button>
+  <p id="output"></p>
+
+  <script>
+    const output = document.getElementById('output');
+    let recognition;
+
+    // Function to get the language parameter from the URL
+    function getLanguageFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('lang') || 'en-US'; // Default to 'en-US' if not found
+    }
+
+    function startRecognition() {
+      const lang = getLanguageFromUrl(); // Get language from the URL
+      recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = lang; // Set the language for speech recognition
+      recognition.continuous = true; // Enable continuous listening
+
+      recognition.onresult = function(event) {
+        const transcript = event.results[event.results.length - 1][0].transcript;
+        output.textContent += transcript + ' '; // Add a space for better readability
+      };
+
+      recognition.onend = function() {
+        recognition.start(); // Restart the recognition when it stops
+      };
+
+      recognition.start();
+    }
+
+    function stopRecognition() {
+      recognition.stop(); // Stop the continuous recognition
+      output.innerHTML = ""; // Clear the output
+    }
+  </script>
+</body>
+</html>
