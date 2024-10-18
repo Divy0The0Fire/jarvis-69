@@ -1,0 +1,14 @@
+deepgram-sdk
+pygame
+edge_tts
+selenium
+python-dotenv
+speechrecognition
+
+together == 1.3.0
+groq == 0.11.0
+openai == 1.51.0
+cohere == 5.11.0
+
+sklearn
+sentence_transformers
