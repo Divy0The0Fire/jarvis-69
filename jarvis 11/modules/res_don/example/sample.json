@@ -1,0 +1,150 @@
+{
+    "organizations": [
+        {
+            "id": "org001",
+            "name": "Global Relief Initiative",
+            "location": {
+                "city": "New York",
+                "country": "USA",
+                "coordinates": {
+                    "latitude": 40.7128,
+                    "longitude": -74.0060
+                }
+            },
+            "contact": {
+                "email": "contact@gri.org",
+                "phone": "+1-555-0123",
+                "website": "www.gri.org"
+            }
+        },
+        {
+            "id": "org002",
+            "name": "Community Support Network",
+            "location": {
+                "city": "London",
+                "country": "UK",
+                "coordinates": {
+                    "latitude": 51.5074,
+                    "longitude": -0.1278
+                }
+            },
+            "contact": {
+                "email": "help@csn.org",
+                "phone": "+44-20-555-0124",
+                "website": "www.csn.org"
+            }
+        }
+    ],
+    "resources": [
+        {
+            "category": "Food",
+            "items": [
+                {
+                    "id": "f001",
+                    "name": "Canned Goods",
+                    "unit": "boxes",
+                    "shelf_life": "12 months",
+                    "storage_requirements": "room temperature"
+                },
+                {
+                    "id": "f002",
+                    "name": "Fresh Produce",
+                    "unit": "kg",
+                    "shelf_life": "1 week",
+                    "storage_requirements": "refrigerated"
+                }
+            ]
+        },
+        {
+            "category": "Medical Supplies",
+            "items": [
+                {
+                    "id": "m001",
+                    "name": "First Aid Kits",
+                    "unit": "kits",
+                    "shelf_life": "24 months",
+                    "storage_requirements": "cool, dry place"
+                },
+                {
+                    "id": "m002",
+                    "name": "Face Masks",
+                    "unit": "boxes",
+                    "shelf_life": "36 months",
+                    "storage_requirements": "room temperature"
+                }
+            ]
+        }
+    ],
+    "donation_events": [
+        {
+            "event_id": "ev001",
+            "organization_id": "org001",
+            "date": "2024-01-15",
+            "donations": [
+                {
+                    "resource_id": "f001",
+                    "quantity": 50,
+                    "donor": {
+                        "name": "John Smith",
+                        "email": "john.smith@email.com",
+                        "anonymous": false
+                    },
+                    "status": "received",
+                    "notes": "Regular monthly donation"
+                },
+                {
+                    "resource_id": "m001",
+                    "quantity": 25,
+                    "donor": {
+                        "name": "Anonymous",
+                        "email": "anonymous@email.com",
+                        "anonymous": true
+                    },
+                    "status": "in_transit",
+                    "notes": "Emergency supplies"
+                }
+            ]
+        }
+    ],
+    "distribution": {
+        "scheduled_events": [
+            {
+                "id": "dist001",
+                "date": "2024-01-20",
+                "location": "Community Center A",
+                "resources": [
+                    {
+                        "resource_id": "f001",
+                        "quantity": 30
+                    },
+                    {
+                        "resource_id": "m001",
+                        "quantity": 15
+                    }
+                ],
+                "beneficiaries": 150,
+                "volunteers_needed": 10
+            }
+        ],
+        "completed_events": [
+            {
+                "id": "dist002",
+                "date": "2024-01-10",
+                "location": "Community Center B",
+                "resources_distributed": [
+                    {
+                        "resource_id": "f002",
+                        "quantity": 100
+                    }
+                ],
+                "beneficiaries_served": 75,
+                "volunteers_participated": 8
+            }
+        ]
+    },
+    "metadata": {
+        "last_updated": "2024-01-16T10:30:00Z",
+        "version": "1.0",
+        "generated_by": "Resource Donation System"
+    }
+}

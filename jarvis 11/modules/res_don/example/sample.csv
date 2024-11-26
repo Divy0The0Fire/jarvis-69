@@ -1,0 +1,11 @@
+donor_name,donor_email,resource_type,quantity,donation_date,status,location
+John Smith,john.smith@email.com,Food,50,2024-01-15,Available,New York
+Emma Wilson,emma.w@email.com,Clothing,30,2024-01-16,Available,Los Angeles
+Michael Brown,michael.b@email.com,Medical Supplies,100,2024-01-14,Reserved,Chicago
+Sarah Johnson,sarah.j@email.com,Books,75,2024-01-15,Available,Boston
+David Lee,david.l@email.com,Electronics,25,2024-01-13,Distributed,San Francisco
+Lisa Garcia,lisa.g@email.com,Furniture,10,2024-01-16,Available,Miami
+Robert Taylor,robert.t@email.com,School Supplies,200,2024-01-14,Reserved,Seattle
+Maria Rodriguez,maria.r@email.com,Toys,45,2024-01-15,Available,Houston
+James Wilson,james.w@email.com,Blankets,60,2024-01-13,Available,Denver
+Anna Chen,anna.c@email.com,Hygiene Products,150,2024-01-16,Available,Portland
