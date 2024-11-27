@@ -20,11 +20,11 @@ load_dotenv()
 LLAMA_32_11B_TEXT_PREVIEW = Model(name="llama-3.2-11b-text-preview", typeof=ModelType.textonly)
 LLAMA_32_11B_VISION_PREVIEW = Model(name="llama-3.2-11b-vision-preview", typeof=ModelType.textandimage)
 LLAMA_32_1B_PREVIEW = Model(name="llama-3.2-1b-preview", typeof=ModelType.textonly)
-LLAMA_32_90B_TEXT_PREVIEW = Model(name="llama-3.2-90b-text-preview", typeof=ModelType.textonly)
+LLAMA_32_90B_VISION_PREVIEW = Model(name="llama-3.2-90b-vision-preview", typeof=ModelType.textandimage)
+LLAMA_32_90B_TEXT_PREVIEW = LLAMA_32_90B_VISION_PREVIEW
 
 LLAMA_31_70B_VERSATILE = Model(name="llama-3.1-70b-versatile", typeof=ModelType.textonly)
 LLAMA_31_8B_INSTANT = Model(name="llama-3.1-8b-instant", typeof=ModelType.textonly)
-
 # TODO: Add more models here
 
 
